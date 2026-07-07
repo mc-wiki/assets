@@ -1,6 +1,6 @@
 # Minecraft Wiki assets
 
-Source files for wiki namespace and gadget themes.
+Source project files for wiki site assets and various article images.
 
 ## License
 
