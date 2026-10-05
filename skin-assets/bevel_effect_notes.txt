@@ -1,0 +1,27 @@
+Bevel-like effect is achieved by using 'emboss' filter with angle set to 135 in PaintDotNet,
+other software might require some fine tuning to achieve simillar results,
+here are few examples:
+===GIMP===
+filter:Distorts>Emboss
+Emboss type - Emboss
+Azimuth - 135
+Elevation - 12
+Deph - 1
+
+===Krita===
+Invert layer colors first
+filter:Emboss>Emboss with variable deph...
+Deph - 20
+
+===Photopea===
+Invert layer colors first
+filter: Stylize>Emboss...
+angle - 135
+Height - 2px
+Amount - 242%
+
+Filtered layer properties:
+opacity - 50%, 128 for 1-255 range
+blending mode: overlay
+
+It's important to note, that layer should be filtered at target resolution of final image.
